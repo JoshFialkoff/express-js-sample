@@ -1,20 +1,30 @@
 {
-  "name": "express-sample",
+  "name": "nodejs2",
   "version": "1.0.0",
-  "description": "Hello world app with express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "keywords": [
-    "express",
-    "hello-world"
-  ],
-  "author": "Easypanel",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "dotenv": "^16.1.3",
-    "express": "^4.15.0"
+    "@shadcn/ui": "^0.0.4",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "leaflet": "^1.9.4",
+    "leaflet-draw": "^1.0.4",
+    "lucide-react": "^0.474.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^4.5.0"
   }
 }
